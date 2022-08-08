@@ -1,0 +1,58 @@
+/* những thằng được viết ở trong style đều gọi là css */
+/* select theo tagName : chọn đối tượng theo tagName*/
+/* muốn các thẻ p đều có màu tím */
+p {
+    color: purple;
+}
+
+/* select theo class: chọn đối tượng theo class */
+/* tạo ra 1 class chứa các thuộc tính, tag nào có class đó sẽ kế thừa thuộc tính của class đó */
+/* class thì phải có dấu . */
+.dacbiet {
+    color: brown !important;
+}
+
+.dacbiet2 {
+    color: teal;
+}
+
+/* select theo id: chọn đối tượng theo id 
+            id thì phải có dấu #*/
+#tuilah6 {
+    color: blueviolet;
+}
+/* demo1-btn */
+.demo1-btn{
+    color: teal;
+}
+.demo1-btn:active{
+    color: hotpink !important;
+}
+.demo1-btn:hover{
+    color: red;
+}
+/* demo2-btn */
+.demo2-btn{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.demo2-btn:hover{
+    background-color: black;
+    color: white;
+}
+/* model-box
+padding: là khoảng cách từ viền vào content
+margin: là khoảng cách từ viền ra ngoài */
+/* demo-tbl */
+.demo-tbl, .demo-tbl td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}

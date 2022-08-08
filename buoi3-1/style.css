@@ -1,0 +1,12 @@
+.demo-tbl, .demo-tbl td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+legend{
+  color: red;
+}
+fieldset{
+  border-style: groove;
+  border-color: rgb(165, 30, 30);
+}

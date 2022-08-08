@@ -1,0 +1,41 @@
+.demo-btn{
+  color: teal;
+}
+.demo-btn:active{
+  color: blue !important;
+}
+.demo-btn:hover{
+  color: purple;
+}
+.demo1-btn{
+  display: inline-block;
+  border: 2px solid black;
+  padding: 5px 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.demo1-btn:hover{
+  background-color: black;
+  color: white;
+}
+.demo-img{
+  cursor: default;
+  opacity: 0.5;
+}
+.style1{
+  text-align: center;
+  color: red !important;
+}
+.style{
+  text-align: center;
+  color: blue !important;
+}
+/* mode box
+    padding: khoảng cách từ viền vào content
+    margin: khoảng cách từ viền so với phần tử bên ngoài
+*/

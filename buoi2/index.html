@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buoi2</title>
+</head>
+<body>
+  <!--học qua những thể vô dụng -->
+  <!-- Quotations -->
+  <p class="dacbiet">có một người từng nói rằng "một cây làm chẳng nên non 3 cây chụm lại vẫn là 3 cây" </p>
+  <p class="dacbiet">có một người từng nói rằng "một cây làm chẳng nên non 3 cây chụm lại vẫn là 3 cây" </p>
+  <q >một cây làm chẳng nên non 3 cây chụm lại vẫn là 3 cây</q>
+  <!-- q: quote dùng để chứa trích dẫn (Không cần thêm dấu") -->
+  <!-- q: có display:inline -->
+  <!-- blockquote:  -->
+  <!-- abbr -->
+  <p>Công chúa thuộc về <abbr style="text-decoration: underline solid;" title="Nam Nguyen"> người đẹp trai nhất</abbr></p>
+  <!-- address: p + em + inline -->
+  <address>155/13 Đường Đình Phong Phú</address>
+  <!-- Cite -->
+  <p><cite>Tác phẩm này được </abbr>vẽ bởi vì em vẫn good</p>
+  <!-- bdo -->
+  <bdo dir="rtl">Xin chào ngày mới</bdo>
+  <div style="height: 100vh;"></div>
+  <style>
+    /* select tag name: chọn đối tượng bằng tên nhé */
+    p{
+      color: red;
+    }
+    /* select thằng thứ x từ trên xuống */
+    p:nth-child(2){
+      color: blue;
+    }
+    /* select class name: chọn đối tượng bằng class name tạo ra 1 class chứa các thuộc tình tag nào có class đó sẽ có thuộc tính của nó trong css ta dùng dấu . để truy cập */
+    .dacbiet{
+      color: pink !important;
+    }
+    .dacbiet2{
+      font-size: 30px;
+    }
+    /* select bằng id: giống select bằng class nhưng thay vì dùng . thì nó dùng #
+    1 doc html ko nên có 2 tag trùng id với nhau */
+  </style>
+</body>
+</html>
+<!-- color: đổi màu chữ
+     background-color: đổi mầu nền -->
